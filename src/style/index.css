@@ -1,0 +1,8 @@
+cast-media-player {
+  --splash-image:  url('/assets/splashscreen.png');
+  --logo-image:  url('/assets/splashscreen.png');
+  --splash-size: contain;
+  --logo-size:  contain;
+
+  background: #000000;
+}
