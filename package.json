@@ -4,11 +4,15 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "parcel src/index.html",
+    "dev:sender": "parcel sender/sender.html --dist-dir dist_sender --port=1337",
     "build": "rm -rf dist/ && parcel build --public-url ./ src/index.html"
   },
   "license": "UNLICENSED",
   "devDependencies": {
     "@types/chromecast-caf-receiver": "^6.0.13",
-    "parcel": "^2.11.0"
+    "@types/jwplayer": "^8.28.4",
+    "@types/node": "^20.11.13",
+    "parcel": "^2.11.0",
+    "prettier": "^3.2.4"
   }
 }
